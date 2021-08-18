@@ -14,7 +14,7 @@ export default {
     Editor
   },
   setup(){
-    const state = ref(data);
+    const state = ref(data); //blocks
 
     provide('config',config); // 将组件的配置直接穿日
 
